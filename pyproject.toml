@@ -1,0 +1,13 @@
+[project]
+name = "pyvmomi-extended"
+version = "0.1.0"
+description = "Adding additional APIs and objects to vmware/pyvmomi"
+readme = "README.md"
+requires-python = ">=3.10"
+dependencies = [
+    "pyvmomi[sso]>=8.0.3.0.1",
+]
+
+[build-system]
+requires = ["hatchling"]
+build-backend = "hatchling.build"
